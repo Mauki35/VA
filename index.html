@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Assistant Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-white shadow-md p-4 sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">VA Portfolio</h1>
+      <nav class="space-x-4 text-sm">
+        <a href="#about" class="hover:text-indigo-600">About</a>
+        <a href="#services" class="hover:text-indigo-600">Services</a>
+        <a href="#portfolio" class="hover:text-indigo-600">Portfolio</a>
+        <a href="#testimonials" class="hover:text-indigo-600">Testimonials</a>
+        <a href="#contact" class="hover:text-indigo-600">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-indigo-100 py-20">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-extrabold text-indigo-700 mb-4">Hi, I'm Your Virtual Assistant</h2>
+      <p class="text-lg text-gray-700 max-w-xl mx-auto">
+        I help entrepreneurs, professionals, and teams stay productive by handling administrative, scheduling, communication, and research tasks.
+      </p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-16">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-4">About Me</h3>
+      <p class="text-gray-700 leading-relaxed">
+        With over 3 years of experience as a Virtual Assistant, I have supported clients across industries with calendar management, email handling, document creation, research, customer support, and project coordination. I am reliable, detail-oriented, and committed to helping clients succeed.
+      </p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-16 bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-8 text-center">Services Offered</h3>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-indigo-50 p-6 rounded-2xl shadow">
+          <h4 class="text-lg font-semibold mb-2">Administrative Support</h4>
+          <p class="text-sm text-gray-600">Email management, calendar scheduling, and file organization.</p>
+        </div>
+        <div class="bg-indigo-50 p-6 rounded-2xl shadow">
+          <h4 class="text-lg font-semibold mb-2">Research & Reports</h4>
+          <p class="text-sm text-gray-600">Online research, summaries, and data analysis for informed decision-making.</p>
+        </div>
+        <div class="bg-indigo-50 p-6 rounded-2xl shadow">
+          <h4 class="text-lg font-semibold mb-2">Customer Support</h4>
+          <p class="text-sm text-gray-600">Responding to inquiries, managing CRMs, and providing virtual chat assistance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Portfolio -->
+  <section id="portfolio" class="py-16">
+    <div class="max-w-6xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-8 text-center">My Work</h3>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl shadow p-4">
+          <h5 class="font-semibold text-lg mb-2">Email Campaign Setup</h5>
+          <p class="text-sm text-gray-600">Designed and scheduled newsletters for a health coach using Mailchimp.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <h5 class="font-semibold text-lg mb-2">CRM Management</h5>
+          <p class="text-sm text-gray-600">Managed leads, contacts, and follow-ups using HubSpot for a real estate team.</p>
+        </div>
+        <div class="bg-white rounded-xl shadow p-4">
+          <h5 class="font-semibold text-lg mb-2">Market Research Report</h5>
+          <p class="text-sm text-gray-600">Compiled data on competitors and trends for a startup in the wellness space.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section id="testimonials" class="bg-indigo-50 py-16">
+    <div class="max-w-4xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-8">What Clients Say</h3>
+      <div class="space-y-8">
+        <blockquote class="bg-white p-6 rounded-xl shadow">
+          <p class="italic text-gray-700">"Absolutely reliable and efficient. My emails and calendar have never looked better."</p>
+          <cite class="block mt-2 text-sm font-semibold text-gray-800">— Sarah K., Consultant</cite>
+        </blockquote>
+        <blockquote class="bg-white p-6 rounded-xl shadow">
+          <p class="italic text-gray-700">"Quick turnaround, proactive communication, and high-quality output every time."</p>
+          <cite class="block mt-2 text-sm font-semibold text-gray-800">— Mark D., Startup Founder</cite>
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-4">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-6 text-center">Get in Touch</h3>
+      <form class="space-y-4">
+        <input type="text" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg p-3" />
+        <input type="email" placeholder="Your Email" class="w-full border border-gray-300 rounded-lg p-3" />
+        <textarea placeholder="Your Message" rows="5" class="w-full border border-gray-300 rounded-lg p-3"></textarea>
+        <button type="submit" class="bg-indigo-600 text-white px-6 py-3 rounded-xl hover:bg-indigo-700">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-100 text-center text-sm p-4">
+    © 2025 Your Virtual Assistant | All rights reserved
+  </footer>
+
+</body>
+</html>
